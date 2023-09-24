@@ -8,7 +8,7 @@ import 'package:http/http.dart' as http;
 
 void main(){
   WidgetsFlutterBinding.ensureInitialized();
-  Stripe.publishableKey = "pk_test_51NtSXsB9no9g424B9dFg90Raxah0XZ2BerhutcU2K8GOJFDdH25eTU1V1SHVdsiN76wWEtwdxr8KYaBDTUMAkQUb007y8nLQ2y";
+  Stripe.publishableKey = "<-----------Publish key goes here---------------->";
   runApp(MaterialApp(
       debugShowCheckedModeBanner: false,
       home : MyApp()));
@@ -234,7 +234,7 @@ class _MyAppState extends State<MyApp> {
           'payment_method_types[]':'card'
         },
         headers: {
-        'Authorization':'Bearer sk_test_51NtSXsB9no9g424BQVzhrwzP3zBbTkWfRyEdU34GME6F5wZKKNVsvkMO8iNfVv2WVRpKIowfPt0AZG7AGqRRsNNA00G5Z2Lzeb',
+        'Authorization':'Bearer <-----------Secret key goes here------------------>',
           "Content-Type":"application/x-www-form-urlencoded"
         }
       );
