@@ -5,7 +5,7 @@ A new Project which shows how to integrate the Stripe Payment Gateway in your Fl
 
 ## Pre-requisit
 
-This project might need your stripe account which will give you access to Publisher and Secret key which you'll use in project later.
+This project might need your stripe account which will give you access to Publisher and Secret key which you'll use in project later .
 
 
 - [Stripe Package](https://pub.dev/packages/flutter_stripe)
